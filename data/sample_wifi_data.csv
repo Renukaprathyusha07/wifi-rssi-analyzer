@@ -1,0 +1,9 @@
+location,rssi,latitude,longitude,ssid
+Library,-45,17.7200,83.3000,College_WiFi
+Lab,-58,17.7210,83.3010,College_WiFi
+Classroom,-67,17.7220,83.3020,College_WiFi
+Canteen,-75,17.7230,83.3030,College_WiFi
+Hostel,-84,17.7240,83.3040,College_WiFi
+Ground,-52,17.7250,83.3050,College_WiFi
+Office,-61,17.7260,83.3060,College_WiFi
+Library-2,-48,17.7270,83.3070,College_WiFi
