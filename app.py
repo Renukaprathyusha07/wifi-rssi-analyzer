@@ -182,7 +182,18 @@ fig = px.bar(
     x="location",
     y="rssi",
     color="quality",
-    title="Wi-Fi RSSI"
+    text="rssi",
+    title="Wi-Fi Signal Strength by Location"
+)
+
+fig.update_traces(
+    texttemplate="%{text} dBm",
+    textposition="outside"
+)
+
+fig.update_layout(
+    yaxis_title="RSSI (dBm)",
+    xaxis_title="Location"
 )
 
 
