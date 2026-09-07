@@ -21,6 +21,9 @@ st.set_page_config(
 # Title
 # -----------------------------
 
+st.sidebar.title("⚙️ Controls")
+st.sidebar.write("Upload your Wi-Fi measurement data below.")
+
 st.title("📶 Wi-Fi RSSI Analyzer")
 
 st.write(
