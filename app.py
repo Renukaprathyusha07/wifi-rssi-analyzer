@@ -138,6 +138,12 @@ wifi_map = folium.Map(
     zoom_start=16
 )
 
+folium.Marker(
+    [center_lat, center_lon],
+    popup="📡 Wi-Fi Router",
+    tooltip="Wi-Fi Router"
+).add_to(wifi_map)
+
 
 heat_data = []
 
