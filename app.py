@@ -111,6 +111,16 @@ col4.metric(
 
 st.divider()
 
+st.subheader("📶 Signal Quality Guide")
+
+st.write(
+    "🟢 Excellent: -50 dBm or better  |  "
+    "🟢 Good: -51 to -60 dBm  |  "
+    "🟡 Fair: -61 to -70 dBm  |  "
+    "🟠 Weak: -71 to -80 dBm  |  "
+    "🔴 Very Weak: below -80 dBm"
+)
+
 
 # -----------------------------
 # Heatmap
